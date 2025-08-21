@@ -1,4 +1,5 @@
 import CounterButton from "./components/CounterButton";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <h1>Vite + React</h1>
 
       <CounterButton />
+      <TodoList />
     </div>
   );
 }

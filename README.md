@@ -1,19 +1,43 @@
-# Kodbas för Enhets- och integrationstestning av React komponenter.
+# Assignment 1 – Unit & Integration Testing
 
-## Installation
+A small React + Vite application built for learning **unit tests** and **integration tests** with **Vitest** and **React Testing Library**.  
 
-Kör `npm install` för att installera alla paket.
+The project demonstrates:  
+- Unit testing (`CounterButton`, `DeleteButton`)  
+- Integration testing (`TodoList` with `TodoItem` + `DeleteButton`)  
+- Mocking external calls (`RemoteTodos` with mocked `fetch`)  
+- Code coverage measurement with Istanbul  
 
-## Utveckling
+---
 
-Kör `npm run dev` för att starta utvecklingsservern.
+## 🚀 Getting Started
 
-## Testning
+### 1. Install dependencies
+```bash
+npm install
+```
 
-Kör `npm test` för att köra testerna. Kan köras utan att utvecklingsservern är igång.
+### 2. Run the application
+```bash
+npm run dev
+```
 
-## Coverage
+### 3. Run tests
+```bash
+npm run test
+```
 
-Kör `npm run coverage` för att se hur stor del av kodbasen som testerna täcker.
+### 4. Run tests with UI
+```bash
+npm run test:ui
+```
 
-Observera att det nu finns en mapp [coverage](./coverage) med en massa filer (en hemsida). Du kan starta [index.html](./coverage/index.html) filen med live server för att öppna hemsidan. Där ser du mer detaljer om vad dina tester faktiskt testar och inte.
+### 5. Run tests and measure code coverage
+```bash
+npm run coverage
+```
+
+## 📚 References
+- [Vitest](https://vitest.dev/)
+- [React Testing Library](https://testing-library.com/)
+- [Istanbul](https://istanbul.js.org/)

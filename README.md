@@ -41,3 +41,28 @@ npm run coverage
 - [Vitest](https://vitest.dev/)
 - [React Testing Library](https://testing-library.com/)
 - [Istanbul](https://istanbul.js.org/)
+
+## ✅ Assignment Requirements
+
+### Krav för **Godkänt**
+- [x] **Webbapplikationen fungerar** och använder sig av minst två komponenter  
+  → App includes `TodoList`, `TodoItem`, `DeleteButton`, `ApiTodos`  
+- [x] **Komponenterna är enhetstestade och integrationstestade**  
+  → Unit: `TodoItem`  
+  → Integration: `TodoList` with `TodoItem` + `DeleteButton`  
+- [x] **Code Coverage är >80%**  
+  → Achieved 100% coverage  
+- [x] **Git & GitHub har använts**  
+- [x] **Projektmappen innehåller en README.md**  
+- [x] **Uppgiften lämnas in i tid**  
+- [x] **Muntlig presentation är genomförd**  
+
+---
+
+### Krav för **Väl godkänt**
+- [x] Alla punkter för godkänt är uppfyllda  
+- [x] **Code Coverage är 100%**  
+- [x] **Komponenter testas omfattande**  
+  → Includes positive cases, negative cases, and edge cases (empty state in `TodoList`)  
+- [x] **Mockning används på ett relevant och nödvändigt sätt**  
+  → `ApiTodos` component tested with **mocked fetch** to simulate API success and failure  

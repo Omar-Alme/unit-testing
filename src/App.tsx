@@ -1,3 +1,4 @@
+import ApiTodos from "./components/ApiTodos";
 import CounterButton from "./components/CounterButton";
 import TodoList from "./components/TodoList";
 
@@ -8,6 +9,8 @@ function App() {
 
       <CounterButton />
       <TodoList />
+      <h2>API Todos</h2>
+      <ApiTodos />
     </div>
   );
 }
